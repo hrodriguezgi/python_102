@@ -27,10 +27,8 @@ print(r'variable = {key:value for var in iterable}')
 print()
 
 print(f'Ejemplo:')
-print(r'numeros_dict_2 = {f"num_{numero}":numero for numero in range(11, 21)]')
+print(r'numeros_dict_2 = {f"num_{numero}":numero for numero in range(11, 21)}')
 print()
-
-numeros_dict_2 = {}
 
 numeros_dict_2 = {f'num_{numero}': numero * 2 for numero in range(11, 21)}
 
@@ -60,6 +58,12 @@ print(f'variable = [key:value for var in iterable if condition]\n')
 print(f'Ejemplo:')
 print(f'numeros_3 = [numero for numero in range(11, 21) if numero % 2 == 0]\n')
 
-deportes_multijugador = {deporte: jugador for deporte, jugador in zip(deportes, jugadores) if jugador > 3}
+deportes_multijugador = {deporte: jugador for deporte, jugador in deportes_dict.items() if jugador > 3}
 
 pprint(deportes_multijugador)
+
+
+deportes_multijugador = {}
+for deporte, jugador in deportes_dict.items():
+  if jugador > 3:
+    deportes_multijugador[deporte] = jugador

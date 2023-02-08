@@ -1,47 +1,47 @@
-# Para crear dinámicamente una lista podemos hacer uso de un loop: for
-
-print('Sintaxis de un for:\n')
-print(f'for element in iterable:')
-print(f'\tactions\n')
-
-print(f'Ejemplo:')
-print(f'for numero in range(1, 11):')
-print(f'\tnumeros.append(numero)\n')
+print(f'''
+Para crear dinámicamente una lista, se puede hacer por medio de ciclos: 'for'
+Un ejemplo de esto es el siguiente código, que se encarga de almacenar los
+números del 1 al 10 en una lista llamada 'numeros', sin embargo es necesario
+tener en cuenta que se debe inicializar la lista antes de ejecutar el ciclo''')
 
 numeros = []
-print(f'lista numeros: {numeros}')
-
 for numero in range(1, 11):
   numeros.append(numero)
 
-print(f'lista numeros: {numeros}')
+print(f'''
+numeros = []
+for numero in range(1, 11):
+    numeros.append(numero)
 
-print(f'\n\n{20*"*"}\n\n')
+El resultado es el siguiente:
+- numeros: {numeros}
+''')
 
-# Haciendo uso de list comprehension
-print('Sintaxis de un list comprehension:')
-print(f'variable = [element for element in iterable]\n')
+print(f'''
+Por otro lado, tenemos la alternativa de crear la lista haciendo uso de list
+comprehension, el cual resume las 3 anteriores lineas de código en una sola, de
+la siguiente forma:
 
-print(f'Ejemplo:')
-print(f'numeros_2 = [numero for numero in range(11, 21)]\n')
-
-numeros_2 = []
-print(f'lista numeros: {numeros_2}')
+numeros_2 = [numero for numero in range(11, 21)]
+''')
 
 numeros_2 = [numero for numero in range(11, 21)]
 
-print(f'lista numeros: {numeros_2}')
+print(f'''
+El resultado de ese código es el siguiente:
+- numeros_2: {numeros_2}
+''')
 
-print(f'\n\n{20*"*"}\n\n')
+print(f'''
+Por último, las list comprehension también admiten condicionales en su
+ejecución. El código ejemplo es el siguiente:
 
-# Condiciones en list comprehension
-print('Sintaxis de un list comprehension con condicion:')
-print(f'variable = [element for element in iterable if condition]\n')
+numeros_3 = [numero for numero in range(21, 31) if numero % 2 == 0]
+''')
 
-print(f'Ejemplo:')
-print(f'numeros_3 = [numero for numero in range(11, 21) if numero % 2 == 0]\n')
-
-numeros_3 = []
 numeros_3 = [numero for numero in range(21, 31) if numero % 2 == 0]
 
-print(f'lista numeros: {numeros_3}')
+print(f'''
+El resultado es el siguiente:
+- numeros_3: {numeros_3}
+''')
