@@ -16,8 +16,8 @@ Considera la expresión, `a = 2 + 3`. Aquí, `2` y `3` son los operandos y `+` e
 | `//` | Realiza la división con resultado de número entero | 18 // 5 = 3
 
 
-## Operadores Relacionales
-Un operador relacional se emplea para comparar y establecer la relación entre ellos. 
+## Operadores Comparación
+Un operador comparación se emplea para comparar y establecer la relación entre ellos. 
 
 Devuelve un valor booleano (true o false) basado en la condición.
 
@@ -29,6 +29,16 @@ Devuelve un valor booleano (true o false) basado en la condición.
 | `>=` | Devuelve `True` si el operador de la izquierda es mayor o igual que el operador de la derecha | 12 >= 3 devuelve True
 | `<=` | Devuelve `True` si el operador de la derecha es mayor o igual que el operador de la izquierda | 12 <= 3 devuelve False
 | `!=` | Devuelve `True` si ambos operandos no son iguales | 12 != 3 devuelve True
+
+
+## Operadores Lógicos
+Se utiliza un operador lógico para tomar una decisión basada en múltiples condiciones. Los operadores lógicos utilizados en Python son `and`, `or` y `not`.
+
+| **Operador** | **Descripción** | **Ejemplo** |
+|--------------|-----------------|-------------|
+| `and` | Devuelve True si ambos operandos son True | `a and b`
+| `or` | Devuelve True si alguno de los operandos es True | `a or b`
+| `not` | Devuelve True si alguno de los operandos False | `not a`
 
 
 ## Operadores Bit a Bit
@@ -72,11 +82,29 @@ Considera los siguientes ejemplos,
 | `<<=` | `a <<= 3` es equivalente a `a = a << 3`
 
 
-## Operadores Lógicos
-Se utiliza un operador lógico para tomar una decisión basada en múltiples condiciones. Los operadores lógicos utilizados en Python son `and`, `or` y `not`.
+## Operadores de Identidad
+Estos operadores son utilizados para validar si dos valores están ubicados en la misma parte de la memoria. 
+Que dos variables sean iguales no implican que sean idénticas.
 
-| **Operador** | **Descripción** | **Ejemplo** |
-|--------------|-----------------|-------------|
-| `and` | Devuelve True si ambos operandos son True | `a and b`
-| `or` | Devuelve True si alguno de los operandos es True | `a or b`
-| `not` | Devuelve True si alguno de los operandos False | `not a`
+| **Operador** | **Descripción** |
+|--------------|-----------------|
+| `is` | `True` si los objetos son idénticos
+| `is not` | `True` si los objetos no son idénticos
+
+
+## Operadores de Pertenencia
+Se utilizan para validar si una variable o un valor se encuentra en una secuencia
+
+| **Operador** | **Descripción** |
+|--------------|-----------------|
+| `in` | `True` si el valor se encuentra en la secuencia
+| `not in` | `True` si el valor no se encuentra en la secuencia
+
+
+## Operadores Ternarios
+Los operadores ternarios también son conocidos como expresiones condicionales. Son operadores que evaluan una expresión basados en una condición. Estos operadores permiten evaluar una condición en una sola linea remplazando las sentencias 
+if-else multilinea.
+
+Ejemplo:
+
+`[on_true] if [expression] else [on_false]`
