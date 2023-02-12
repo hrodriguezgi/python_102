@@ -34,7 +34,8 @@ else:
     print('n es un número impar')
 ```
 
-<mark>Nota:</mark>
+**Nota:**
+
 No olvidar que este tipo de sentencias también pueden ser escritas como operador
 ternario
 
