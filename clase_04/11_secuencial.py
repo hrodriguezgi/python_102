@@ -4,6 +4,8 @@ b = 10
 c = a - b
 print("La resta es igual a:",c)
 
+
+
 # Ejemplo 2
 a = ['amarillo', 'rojo', 'azul']
 b = ['cafe', 'morado', 'verde']
