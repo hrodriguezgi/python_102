@@ -13,7 +13,8 @@ Esta sentencia es utilizada para iterar sobre una secuencia (lista, tupla,
 diccionario, conjunto, range). El objetivo es ejecutar una sentencia para cada
 uno de los elementos de la secuencia.
 
-- Ejemplo:
+Ejemplo:
+
 ```python
 lista = [1, 2, 3, 4, 5]
 for i in lista:
@@ -25,7 +26,8 @@ Esta sentencia es utilizada para ejecutar un bloque de código hasta que una
 condición dada se cumpla. Esto quiere decir que esta condición es validada cada
 vez que se itera sobre el ciclo.
 
-- Ejemplo:
+Ejemplo:
+
 ```python
 a = 5
 b = 0

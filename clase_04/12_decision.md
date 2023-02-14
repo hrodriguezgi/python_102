@@ -11,6 +11,7 @@ ha definido.
 
 
 Ejemplo:
+
 ```python
 n = 10
 if n % 2 == 0:
@@ -26,6 +27,7 @@ para cada uno de los escenarios.
 
 
 Ejemplo:
+
 ```python
 n = 13
 if n % 2 == 0:
@@ -46,6 +48,7 @@ if y cumpliendo las reglas de los puntos 1 y 2.
 
 
 Ejemplo:
+
 ```python
 a = 5
 b = 10
@@ -69,6 +72,7 @@ toma de decisión.
 
 
 Ejemplo:
+
 ```python
 a = 5
 b = 10

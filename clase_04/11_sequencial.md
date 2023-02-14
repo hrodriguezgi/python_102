@@ -1,5 +1,6 @@
 # Estructuras de Control
 Python es un lenguaje que tiene tres tipo de control de estructuras:
+
 1. Secuencial
 2. Selección
 3. Repetición
@@ -24,6 +25,7 @@ una forma secuencial.
 
 
 - Ejemplo 1
+
 ```python
 a = 20
 b = 10
@@ -32,7 +34,8 @@ print("La resta es igual a:",c)
 ```
 
 
-- Ejemplo 2:
+- Ejemplo 2
+
 ```python
 a = ['amarillo', 'rojo', 'azul']
 b = ['cafe', 'morado', 'verde']
