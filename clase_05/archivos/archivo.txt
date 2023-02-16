@@ -1,0 +1,8 @@
+Los archivos son objetos que permiten almacenar datos, por lo tanto pueden ser
+manipulados desde Python para leer su contenido, modificar su contenido o para
+crear contenido nuevo. 
+
+Para llevar a cabo esto, se requiere:
+- Abrir un archivo
+- Leer/Escribir
+- Cerrar el archivo.

@@ -11,7 +11,7 @@ En este caso identificaremos la primera: secuencial y de que se trata.
 Como ya lo hemos visto, Python es un lenguaje interpretado, y en el control de
 tipo secuencial lo vemos en su máxima expresión, ya que a medida que Python va
 interpretando una a una nuestras lineas de código de forma secuencial va
-realizando las acciones que le pedimos. Ejemplo:
+realizando las acciones que le pedimos.
 
 ```python
 a = 20
