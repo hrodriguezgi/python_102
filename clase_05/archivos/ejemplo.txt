@@ -1,0 +1,8 @@
+Esto es una linea escrita desde Python
+esto es otra linea nueva
+y esta es la última linea
+Atte Harvey
+Lineas con open
+esto es otra linea nueva
+y esta es la última linea
+Atte Pedrito
