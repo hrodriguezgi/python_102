@@ -129,10 +129,14 @@ Ejemplos:
 - `open`:
 
 ```python
-data = []
+import json
+
 with open('json_file.json') as f:
     lines = f.readlines()
-    data.append(lines)
+
+data = []
+for line in lines:
+    data.append(json.loads(line))
 ```
 
 - `jsonlines`:
