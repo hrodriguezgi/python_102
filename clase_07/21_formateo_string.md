@@ -105,4 +105,4 @@ El area del circulo de radio = 10 es de 628.32
 ```
 
 Del ejemplo anterior, se puede ver como dentro de un `F-string` pueden ser
-llevadas a cabo operaciones de pythonπ]]]]ππ
+llevadas a cabo operaciones de python

@@ -47,11 +47,11 @@ print(f'\n{40*"-"}\n')
 print(f"{5*'*'} Formateo de números {5*'*'}\n")
 
 print('Ejemplo 1:')
-figura = 'circulo'
-area = '2 x pi x r^2'
+figura:str = 'circulo'
+area:str = '2 x pi x r^2'
 print(f'El area del {figura} es igual a {area}')
 
 print('\nEjemplo 2:')
-radio = 10
+radio:float = 3.14
 from math import pi
-print(f'El area del {figura} de radio = {radio} es de {2*pi*(radio**2):.2f}')
+print(f'El area del {figura} de radio = {radio} es de {2*pi*(radio**2):.4f}')
