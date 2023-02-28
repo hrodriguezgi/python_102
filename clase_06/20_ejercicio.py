@@ -99,3 +99,15 @@ print(sumatoria/elementos)
 # solo se almacenen las siguientes llaves, tener en cuenta que debe ser un
 # archivo json estándar:
 # idx, isActive, name, email.
+
+data_2 = []
+campos = ['idx', 'isActive', 'name', 'email']
+
+for elemento in data:
+    dictionary = {}
+    for campo in campos:
+        dictionary[campo] = elemento.get(campo)
+    data_2.append(dictionary)
+
+with open('/Users/hrodriguez/Git/python_102/clase_06/archivos/20_ejercicio_nuevo.json', 'w') as f:
+    json.dump(data_2, f, indent=2)
