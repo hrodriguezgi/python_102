@@ -4,7 +4,7 @@ import this
 print(f'''
 Python como lenguaje
 --------------------
-Python es de tipado dinámico, y esto significa que las variables no requeiren
+Python es de tipado dinámico, y esto significa que las variables no requieren
 ser declaradas del tipo al que pertenecen al momento de su creación ya que
 Python lo identificará. También nos permite cambiar el tipo de una variable 
 cuando hacemos una asignación. Ejemplo:\n''')
