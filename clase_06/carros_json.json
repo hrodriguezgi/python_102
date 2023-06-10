@@ -1,0 +1,17 @@
+[
+  {
+    "referencia": "Rav4",
+    "marca": "Toyota",
+    "cilindraje": "2500 cc",
+    "modelo": 2020,
+    "precio": 32000,
+    "nuevo": false
+  },
+  {
+    "referencia": "Niro",
+    "marca": "KIA",
+    "cilindraje": "1600 cc",
+    "precio": 15000,
+    "nuevo": true
+  }
+]

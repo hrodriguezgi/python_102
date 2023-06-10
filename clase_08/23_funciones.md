@@ -7,7 +7,7 @@ En python podemos encontrar tres tipos de funciones:
 - Standard Library Functions (built-in): funciones que se encuentran en el core
 de Python y pueden ser utilizadas
 - Anonymous Functions: también conocidas como funciones **lambda**
-- Used-defined Functions: funciones que son creadas por nosotros en base a los
+- User-defined Functions: funciones que son creadas por nosotros en base a los
 requerimientos que tenemos.
 
 ## Standard Library Functions
@@ -131,7 +131,7 @@ map(object)
 ```
 
 La función `map()` es utilizada para aplicar una función a cada uno de los
-elementos de un iterable. El objeto resultande es de tipo `map`, el cual es un
+elementos de un iterable. El objeto resultante es de tipo `map`, el cual es un
 iterador que puede ser convertido en lista con la función de `list()`. Esta
 función toma como primer argumento la función (que puede ser las propias de
 Python o una creada por el usuario), y como segundo argumento un iterable.
@@ -303,5 +303,5 @@ resultante. Esta función está incluida en el módulo `functools`.
 >>> numeros = [1, 4, 9, 16, 25]
 >>> suma = reduce(lambda x, y: x + y, numeros)
 print(suma)
-21
+55
 ```

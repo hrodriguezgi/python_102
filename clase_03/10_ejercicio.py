@@ -1,3 +1,5 @@
+from random import randint
+
 """
 Ejercicio 1.
 
@@ -25,7 +27,7 @@ Haciendo uso de la librería random, escribir el código necesario para:
 
 """
 Ejercicio 2.
-Haciendo uso de la librerñia random, escribir el código necesario para:
+Haciendo uso de la libreria random, escribir el código necesario para:
  a. Generar una lista de 10 elementos con números aleatorios entre 5 y 15 y
     almacenarla en una variable llamada list1
 
@@ -37,3 +39,11 @@ Haciendo uso de la librerñia random, escribir el código necesario para:
 """
 
 # escribir el código aquí
+
+#list1 = list()
+#for valor in range(1, 11):
+#    list1.append(randint(5, 15))
+list1 = [randint(5, 15) for _ in range(10)]
+
+print(f'la longitud de la lista list1 es {len(list1)}')
+print(f'los elementos de la list1 son: {list1}')

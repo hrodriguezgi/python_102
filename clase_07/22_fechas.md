@@ -134,4 +134,3 @@ objetos de tipo fecha de la siguiente forma
 >>> print(hoy - hoy_2)
 6:00:00
 ```
-π

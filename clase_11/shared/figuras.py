@@ -1,43 +1,37 @@
 """
-Vamos a crear una clase llamada 'Circulo', que debe tener como métodos:
-1. área del Circulo
-    area = pi * radio^2
-2. perímetro del Circulo.
-    perimetro = 2 * pi * radio
-
-Desarrollo:
-
-Atributo: radio
-Constante: pi, 2
+Area y Perímetro de las figuras geométricas
+- Rectángulo:
+    - Area: l1 x l2
+    - Perímetro: 2 x l1 + 2 x l2
+- Circulo:
+    - Area: pi x r^2
+    - Perímetro: 2 x pi x r
+- Triangulo:
+    - Área: (base x altura)/2
+    - Perímetro: l1 + l2 + l3
 """
 
-from math import pi, pow
+from math import pi
 
 
-class Circulo:
-    """
-    Class example
-    """
-    def __init__(self, radio):
-        self.radio = radio
+class Figuras:
+    def __init__(self, figura: str) -> None:
+        self.nombre_figura = figura.lower()
+        self.area = 0
+        self.perimetro = 0
+        self.pi = pi
 
-    def area(self):
-        return pi * pow(self.radio, 2)
+    def calcular_area(self, **kwargs) -> float:
+        if self.nombre_figura == 'circulo':
+            if 'radio' in list(kwargs.keys()):
+                self.area = self.pi * kwargs['radio'] ** 2
+        elif self.nombre_figura == 'triangulo':
+            if 'base' in list(kwargs.keys()) and 'altura' in list(kwargs.keys()):
+                self.area = (kwargs['base'] * kwargs['altura'])/2
+        elif self.nombre_figura == 'rectangulo':
+            if 'lado_1' in list(kwargs.keys()) and 'lado_2' in list(kwargs.keys()):
+                self.area = kwargs['lado_1'] * kwargs['lado_2']
+        return self.area
 
-    def perimetro(self):
-        return 2 * pi * self.radio
-
-
-class Rectangulo:
-    """
-    Class example
-    """
-    def __init__(self, largo, ancho):
-        self.largo = largo
-        self.ancho = ancho
-
-    def area(self):
-        return self.largo * self.ancho
-
-    def perimetro(self):
-        return 2 * (self.largo + self.ancho)
+    def calcular_perimetro(self):
+        pass

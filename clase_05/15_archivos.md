@@ -103,7 +103,7 @@ Los archiv
 ```
 
 #### `readline`
-Este método retorna cada una de la línea del contenido del archivo abierto
+Este método retorna cada una de la líneas del contenido del archivo abierto
 previamente. Ejemplo:
 
 ```python
