@@ -38,7 +38,7 @@ Se utiliza un operador lógico para tomar una decisión basada en múltiples con
 |--------------|-----------------|-------------|
 | `and` | Devuelve True si ambos operandos son True | `a and b`
 | `or` | Devuelve True si alguno de los operandos es True | `a or b`
-| `not` | Devuelve True si alguno de los operandos False | `not a`
+| `not` | Devuelve True si recibe un False | `not a`
 
 
 ## Operadores Bit a Bit
