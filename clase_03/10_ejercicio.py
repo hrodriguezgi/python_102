@@ -6,7 +6,7 @@ Ejercicio 1.
 Por medio de la libreria random, podemos crear valores numéricos aleatorios, 
 haciendo uso de la siguiente sintaxis:
 
-    random.randint(1, 10)
+    randint(1, 10)
 
 El comando anterior generará un único valor entre 1 y 10 incluídos cada que lo 
 ejecutamos.
