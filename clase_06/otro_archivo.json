@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Carlos",
+    "apellido": "Aguirre",
+    "edad": 20
+  },
+  {
+    "nombre": "Felipe",
+    "apellido": "Montoya",
+    "edad": 14,
+    "nivel_estudios": "colegio"
+  },
+  {
+    "nombre": "Sara",
+    "apellido": "Agudelo",
+    "edad": 18,
+    "estado_civil": "soltera"
+  }
+]
