@@ -18,7 +18,6 @@ carros = [{
 }]
 
 
-
 # A partir del archivo adjunto llamado 20_ejercicio.json responder las siguientes preguntas:
 # Cuál es el nombre de la persona que mayor balance tiene? 
 # Cuántos hombres y mujeres hay en el archivo?
