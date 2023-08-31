@@ -3,7 +3,7 @@
 
 carros = [{
 'referencia': 'Rav4',
-'marca': 'Toyota'
+'marca': 'Toyota',
 'cilindraje': '2500 cc',
 'modelo': 2020,
 'precio': 32000,
