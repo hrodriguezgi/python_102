@@ -29,3 +29,4 @@ carros = [{
 # Almacenar la información del archivo anterior en un archivo nuevo donde solo
 # se almacenen las siguientes llaves, tener en cuenta que debe ser un archivo json estándar:
 # idx, isActive, name, email.
+# El nombre del archivo será 20_ejercicio_salida.json
