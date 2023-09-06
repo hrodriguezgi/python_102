@@ -30,3 +30,21 @@ carros = [{
 # se almacenen las siguientes llaves, tener en cuenta que debe ser un archivo json estándar:
 # idx, isActive, name, email.
 # El nombre del archivo será 20_ejercicio_salida.json
+
+import json 
+
+with open('20_ejercicio.json') as file:
+    content = file.readlines()
+
+columns = ['idx', 'isActive', 'name', 'email']
+
+content_json = list()
+for line in content:
+    tmp_dict = dict()
+    new_line = json.loads(line)
+    for column in columns:
+        tmp_dict[column] = new_line.get(column)
+    content_json.append(tmp_dict)
+
+with open('20_ejercicio_salida.json', 'w') as file:
+    json.dump(content_json, file, indent=2)

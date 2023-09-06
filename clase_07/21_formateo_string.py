@@ -54,4 +54,7 @@ print(f'El area del {figura} es igual a {area}')
 print('\nEjemplo 2:')
 radio:float = 3.14
 from math import pi
-print(f'El area del {figura} de radio = {radio} es de {2*pi*(radio**2):.4f}')
+print(f'El area del {figura} de radio = {radio} es de {2*pi*(radio**2):.3f}')
+
+print(f'{3.15:.1f}')
+print(f'{2.75:.1f}')
