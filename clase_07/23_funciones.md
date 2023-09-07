@@ -190,7 +190,7 @@ input(prompt=None, /)
 ```
 
 La función `input()` toma la entrada de un usuario, retornandolo como cadena.
-Esta función toma un argumento opcioinal (prompt) el cual es un mensaje que
+Esta función toma un argumento opcional (prompt) el cual es un mensaje que
 puede ser mostrado al usuario a quien se le pide una entrada. Ejemplo
 
 ```python
