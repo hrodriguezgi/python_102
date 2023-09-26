@@ -19,7 +19,7 @@ class Figuras:
         self.nombre_figura = figura.lower()
         self.area = 0
         self.perimetro = 0
-        self.pi = pi
+        self.pi = 3.14
 
     def calcular_area(self, **kwargs) -> float:
         if self.nombre_figura == 'circulo':
@@ -34,4 +34,8 @@ class Figuras:
         return self.area
 
     def calcular_perimetro(self):
+        print('no se ha implementado')
+
+class Person:
+    def __init__(self) -> None:
         pass
